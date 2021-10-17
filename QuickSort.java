@@ -75,7 +75,6 @@ public class QuickSort
     public static void main(String[] args) throws IOException
     {
         Reader.init(System.in);
-        // Checks the function linear Search for random arrays
         System.out.println("Enter the size of array");
         int n=Reader.nextInt();
         int[] array=new int[n];
